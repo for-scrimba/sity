@@ -1,0 +1,167 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 10px auto;
+  text-align: center;
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  color: #1d3557;
+  /* ====================== */
+  background: hsla(215, 47%, 75%, 1);
+  background: linear-gradient(
+    270deg,
+    hsla(215, 47%, 75%, 1) 0%,
+    hsla(182, 28%, 80%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    270deg,
+    hsla(215, 47%, 75%, 1) 0%,
+    hsla(182, 28%, 80%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    270deg,
+    hsla(215, 47%, 75%, 1) 0%,
+    hsla(182, 28%, 80%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A0B9DD", endColorstr="#BDD9DA", GradientType=1 );
+  /* ====================== */
+}
+
+img {
+  width: 100px;
+}
+
+#hero {
+  height: 343px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4a/Harbour_at_Dunoon_-_geograph.org.uk_-_49147.jpg");
+  background-size: cover;
+  border: 0px none #1d3557;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#hero-title {
+  color: #fff;
+  background-color: #1d3557;
+  /* font-size: 32px; */
+  width: 225px;
+  height: 42px;
+  margin: 119px auto 11px;
+  border: 0px none #1d3557;
+  border-radius: 10px;
+}
+
+#hero-subtitle {
+  font-weight: 600;
+  padding: 5px 28px 8px;
+  color: #fff;
+  background-color: #457b9d;
+  width: 320px;
+  height: 52px;
+  font-size: 18px;
+  margin: 0 auto;
+  border: 0px none #457b9d;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#activities {
+  background-color: #f1faee;
+  margin-bottom: 10px;
+  border: 0px none #1d3557;
+  border-radius: 10px;
+}
+
+#activities-title {
+  font-size: 24px;
+  margin: 39px auto 54px;
+}
+
+#activities-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.activities-img {
+  border-radius: 50%;
+}
+
+.card {
+  width: 220px;
+}
+.card-text {
+}
+
+.card-title {
+  font-size: 16px;
+  /* padding: 22px 20px 17px; */
+  padding: 0 20px;
+}
+
+.card-describe {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 0px;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+#guide {
+  margin-bottom: 25px;
+}
+
+#guide-card {
+  border-radius: 10px;
+  width: 400px;
+  height: 294px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background: #a8dadc;
+  box-shadow: 0 6px 0 0 #1d3557;
+  padding: 23px 11px 0 13px;
+  box-sizing: border-box;
+}
+
+#guide-img {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 180px;
+  height: 248px;
+}
+
+#guide-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 189px;
+  margin-left: 7px;
+  margin-right: 11px;
+}
+
+#gide-title {
+  font-size: 24px;
+}
+
+#guide-text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#guide-name {
+  font-size: 16px;
+}
